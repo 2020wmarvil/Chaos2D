@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{2FFF187E-45AA-422D-A5FB-F44C20E3911F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chaos2D", "Chaos2D\Chaos2D.vcxproj", "{97BB3D71-D306-41A7-AFB2-8172B062D9DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97BB3D71-D306-41A7-AFB2-8172B062D9DE}.Debug|x64.ActiveCfg = Debug|x64
+		{97BB3D71-D306-41A7-AFB2-8172B062D9DE}.Debug|x64.Build.0 = Debug|x64
+		{97BB3D71-D306-41A7-AFB2-8172B062D9DE}.Release|x64.ActiveCfg = Release|x64
+		{97BB3D71-D306-41A7-AFB2-8172B062D9DE}.Release|x64.Build.0 = Release|x64
+		{2FFF187E-45AA-422D-A5FB-F44C20E3911F}.Debug|x64.ActiveCfg = Debug|x64
+		{2FFF187E-45AA-422D-A5FB-F44C20E3911F}.Debug|x64.Build.0 = Debug|x64
+		{2FFF187E-45AA-422D-A5FB-F44C20E3911F}.Release|x64.ActiveCfg = Release|x64
+		{2FFF187E-45AA-422D-A5FB-F44C20E3911F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76CADD6C-C1AA-461F-B9E4-BCDF6458875A}
+	EndGlobalSection
+EndGlobal
