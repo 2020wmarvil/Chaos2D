@@ -6,4 +6,6 @@ if you forget --recurse-submodules, go to Chaos2D/Chaos2D/vendor/spdlog/ and run
 
 to update, git submodule update
 
+generate VS project by executing GenerateProjects.bat
+
 open the .sln
