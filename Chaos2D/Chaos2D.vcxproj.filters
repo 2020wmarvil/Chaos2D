@@ -4,6 +4,9 @@
     <Filter Include="Chaos2D">
       <UniqueIdentifier>{291CF022-95FB-6EBE-9E13-FA940A72D51F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chaos2D\Events">
+      <UniqueIdentifier>{ED5F394A-D92D-2D50-C2C1-9D76AE2E09B5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Chaos2D.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Chaos2D\EntryPoint.h">
       <Filter>Chaos2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chaos2D\Events\ApplicationEvent.h">
+      <Filter>Chaos2D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chaos2D\Events\Event.h">
+      <Filter>Chaos2D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chaos2D\Events\KeyEvent.h">
+      <Filter>Chaos2D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chaos2D\Events\MouseEvent.h">
+      <Filter>Chaos2D\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Chaos2D\Log.h">
       <Filter>Chaos2D</Filter>

@@ -10,3 +10,5 @@
 	#error Chaos2D only supports Windows
 #endif 
 
+#define BIT(X) (1 << X)
+
