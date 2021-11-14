@@ -18,6 +18,9 @@ project "Chaos2D"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "ch2pch.h"
+	pchsource "Chaos2D/src/ch2pch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

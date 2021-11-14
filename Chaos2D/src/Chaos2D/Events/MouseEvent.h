@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Chaos2D {
 	class CHAOS2D_API MouseMovedEvent : public Event {
 	public:

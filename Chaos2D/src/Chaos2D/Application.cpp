@@ -1,3 +1,5 @@
+#include "ch2pch.h"
+
 #include "Application.h"
 
 #include "Log.h"

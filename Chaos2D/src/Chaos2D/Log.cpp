@@ -1,3 +1,5 @@
+#include "ch2pch.h"
+
 #include "Log.h"
 
 namespace Chaos2D {

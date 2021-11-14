@@ -1,9 +1,8 @@
 #pragma once
 
-#include "Chaos2D/Core.h"
+#include "ch2pch.h"
 
-#include <string>
-#include <functional>
+#include "Chaos2D/Core.h"
 
 // TODO: EventSystem is currently blocking
 namespace Chaos2D {
