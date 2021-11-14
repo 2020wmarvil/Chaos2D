@@ -15,9 +15,11 @@
     <ClInclude Include="src\Chaos2D\Application.h" />
     <ClInclude Include="src\Chaos2D\Core.h" />
     <ClInclude Include="src\Chaos2D\EntryPoint.h" />
+    <ClInclude Include="src\Chaos2D\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Chaos2D\Application.cpp" />
+    <ClCompile Include="src\Chaos2D\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -68,6 +70,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>CH2_PLATFORM_WINDOWS;CH2_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Chaos2D\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +85,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>CH2_PLATFORM_WINDOWS;CH2_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Chaos2D\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
